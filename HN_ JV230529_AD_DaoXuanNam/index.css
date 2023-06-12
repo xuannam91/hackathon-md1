@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* phần header */
+header{
+    background-color: black;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.header-nav .nav-left{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+.header-nav .nav-right{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+/* phần nav */
+.reponsive{
+    display: none;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.section p{
+    font-size: 30px;
+}
+.section p span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section .section-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+    padding-left: 210px;
+}
+.section .section-list a{
+ text-decoration: none;
+ color: black;
+ font-size: 13px;
+}
+.section .section-icon{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    font-size: 13px;
+}
+.section .section-icon .fa-solid{
+ color: black;
+}
+/* ảnh đại diện */
+.introduce{
+    text-align: center;
+}
+.introduce img{
+    width: 100%;
+}
+.introduce-content{
+    padding: 30px 200px;
+    width: 100%;
+    text-align:left ;
+    line-height: 1.5;
+}
+.introduce-content .fashion{
+    font-size: 10px;
+}
+.introduce-content p{
+    margin-bottom: 15px;
+}
+/* chấm tròn */
+.circle ul{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.circle ul li{
+border: 1px solid rgb(180, 176, 176);
+padding: 5px 5px;
+border-radius: 50%;
+background-color: rgb(180, 176, 176);
+list-style: none;
+}
+.circle .child{
+    background-color: black;
+}
+
+/* phần article-wrapper */
+.article-wrapper{
+    background-color: #f8f9fb;
+    padding: 45px 0;
+}
+.wrapper-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+.item{
+    width: 25%;
+    padding: 20px;
+}
+.item img{
+    max-width: 100%;
+}
+
+.wrapper-items .item .fashion{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.wrapper-items .item h4{
+    margin-bottom: 10px;
+}
+.wrapper-items .item .jenny{
+    font-size: 12px;
+}
+
+/* phần main */
+.main-latest{
+    padding: 45px 0;
+}
+
+.main-latest .latest-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left:-20px;
+    margin-right:-20px;
+
+}
+.latest-items .item{
+    width: 33.3333333%;
+    padding: 20px;
+}
+.latest-items .item img{
+    max-width: 100%;
+}
+
+.latest-items .item .fashion{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.latest-items .item h4{
+    margin-bottom: 10px;
+}
+.latest-items .item .jenny{
+    font-size: 12px;
+}
+.main-latest-title{
+    display: flex;
+    justify-content: space-between;
+}
+.main-latest-title p{
+    font-size: 12px;
+
+}
+/* footer */
+footer{
+    background-color: #222222;
+    color: #7e7e83;
+    padding: 40px 0;
+}
+.footer-all{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.footer-content ul li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.4;
+
+}
+.footer-content h5{
+    margin-bottom: 15px;
+    color: #e3e5e9;
+
+}
+
+.footer-title{
+    width: 30%;
+    text-align: justify;
+}
+.footer-title .content{
+    font-size: 30px;
+    color: #e3e5e9;
+    margin-bottom: 15px;
+}
+.footer-title .content span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-title .hackathon{
+margin-top: 15px;
+}
+
+
+/* reponsive */
+@media only screen and (max-width: 500px) {
+    header{
+        display: none;
+    }
+    .reponsive{
+        display: block;
+    }
+    .reponsive-block{
+        display: none;
+    }
+}
